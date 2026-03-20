@@ -16,3 +16,8 @@ dist/
 __pycache__/
 *.pyc
 .env
+
+docs/*Certificate* 
+docs/*certificate* 
+docs/*Hand Receipt*
+docs/script.*
