@@ -1,0 +1,137 @@
+{
+  "tidalData": {
+    "February": {
+      "HTL": 0.85,
+      "LTL": 0.2,
+      "MTL": 0.525
+    },
+    "April": {
+      "HTL": 0.7,
+      "LTL": 0.3,
+      "MTL": 0.5
+    },
+    "May": {
+      "HTL": 0.9,
+      "LTL": 0.25,
+      "MTL": 0.575
+    },
+    "June": {
+      "HTL": 0.7,
+      "LTL": 0.35,
+      "MTL": 0.525
+    },
+    "July": {
+      "HTL": 0.7,
+      "LTL": 0.25,
+      "MTL": 0.475
+    },
+    "August": {
+      "HTL": 0.7,
+      "LTL": 0.4,
+      "MTL": 0.55
+    },
+    "December": {
+      "HTL": 1.0,
+      "LTL": 0.45,
+      "MTL": 0.725
+    }
+  },
+  "referenceMTL": 0.554,
+  "transectChanges": {
+    "T.Mariyur Beach": {
+      "Feb-Apr": 2.76,
+      "Apr-May": 7.15,
+      "May-Jun": 0.68,
+      "Jun-Jul": 3.07,
+      "Jul-Aug": 12.6,
+      "Aug-Dec": 1.78,
+      "Feb-Dec": 4.79
+    },
+    "Sayalkudi Beach": {
+      "Feb-Apr": 1.01,
+      "Apr-May": 0.69,
+      "May-Jun": 1.8,
+      "Jun-Jul": 0.64,
+      "Jul-Aug": 6.78,
+      "Aug-Dec": 6.39,
+      "Feb-Dec": 0.57
+    },
+    "Keelvaipar Beach": {
+      "Feb-Apr": 1.19,
+      "Apr-May": 4.75,
+      "May-Jun": 0.9,
+      "Jun-Jul": 2.49,
+      "Jul-Aug": 3.28,
+      "Aug-Dec": 3.72,
+      "Feb-Dec": 6.62
+    },
+    "Ervadi Beach": {
+      "Feb-Apr": null,
+      "Apr-May": 5.59,
+      "May-Jun": 3.75,
+      "Jun-Jul": 2.24,
+      "Jul-Aug": 1.81,
+      "Aug-Dec": 12.72,
+      "Feb-Dec": null
+    }
+  },
+  "shorelineLengths": {
+    "February": 183164.39,
+    "April": 316946.28,
+    "May": 283894.55,
+    "June": 348668.16,
+    "July": 261958.16,
+    "August": 243840.29,
+    "December": 302301.96
+  },
+  "cloudCoverage": {
+    "February": 10.33,
+    "April": 0.95,
+    "May": 0.84,
+    "June": 0.08,
+    "July": 0.05,
+    "August": 0.14,
+    "December": 4.51
+  },
+  "ndwiThresholds": {
+    "February": -0.0902,
+    "April": -0.0902,
+    "May": -0.098,
+    "June": -0.0902,
+    "July": -0.0745,
+    "August": -0.0745,
+    "December": -0.1137
+  },
+  "monthColors": {
+    "February": "#4e79a7",
+    "April": "#f28e2b",
+    "May": "#59a14f",
+    "June": "#e15759",
+    "July": "#76b7b2",
+    "August": "#edc948",
+    "December": "#b07aa1"
+  },
+  "months": [
+    "February",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "December"
+  ],
+  "timePeriods": [
+    "Feb-Apr",
+    "Apr-May",
+    "May-Jun",
+    "Jun-Jul",
+    "Jul-Aug",
+    "Aug-Dec"
+  ],
+  "beaches": [
+    "T.Mariyur Beach",
+    "Sayalkudi Beach",
+    "Keelvaipar Beach",
+    "Ervadi Beach"
+  ]
+}
