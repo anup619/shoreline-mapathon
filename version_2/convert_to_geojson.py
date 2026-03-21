@@ -2,10 +2,13 @@ import geopandas as gpd
 import pandas as pd
 from pathlib import Path
 import json
+import os
 
-BASE_PATH   = Path(r"D:\shoreline-mapathon\SHORELINE_DATA\SAYALKUDI,T.MARIYUR,KEELVAIPAR,ERVADI")
-OUTPUT_BASE = Path(r"D:\shoreline-mapathon\SHORELINE_DATA\PYTHON_OUTPUTS_V2")
-GEOJSON_OUT = OUTPUT_BASE / "geojson"
+project_dir = os.path.dirname(os.path.dirname(__file__))
+shoreline_data_dir = os.path.join(project_dir, "SHORELINE_DATA")
+OUTPUT_BASE = Path(os.path.join(shoreline_data_dir, "PYTHON_OUTPUTS_V2"))
+BASE_PATH = Path(os.path.join(shoreline_data_dir,"SAYALKUDI,T.MARIYUR,KEELVAIPAR,ERVADI"))
+GEOJSON_OUT = Path(os.path.join(OUTPUT_BASE , "geojson"))
 GEOJSON_OUT.mkdir(exist_ok=True)
 
 MONTHS = [

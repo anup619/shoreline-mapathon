@@ -1,8 +1,12 @@
 import geopandas as gpd
 import pandas as pd
 from pathlib import Path
+import os
 
-OUTPUT_BASE = Path(r'D:\shoreline-mapathon\SHORELINE_DATA\PYTHON_OUTPUTS_V2')
+project_dir = os.path.dirname(os.path.dirname(__file__))
+shoreline_data_dir = os.path.join(project_dir, "SHORELINE_DATA")
+BASE_PATH = Path(os.path.join(shoreline_data_dir,"SAYALKUDI,T.MARIYUR,KEELVAIPAR,ERVADI"))
+OUTPUT_BASE = Path(os.path.join(shoreline_data_dir, "PYTHON_OUTPUTS_V2"))
 
 MONTHS = [
     ("2023_02_21", "February"),

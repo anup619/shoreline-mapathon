@@ -24,9 +24,13 @@ CLOUD_SKIP_THRESHOLD = 30
 
 MIN_SHORELINE_LENGTH = 10000
 
-BASE_PATH = Path(r"D:\shoreline-mapathon\SHORELINE_DATA\SAYALKUDI,T.MARIYUR,KEELVAIPAR,ERVADI")
-OUTPUT_BASE = Path(r"D:\shoreline-mapathon\SHORELINE_DATA\PYTHON_OUTPUTS_V2")
+project_dir = os.path.dirname(os.path.dirname(__file__))
+shoreline_data_dir = os.path.join(project_dir, "SHORELINE_DATA")
+BASE_PATH = Path(os.path.join(shoreline_data_dir,"SAYALKUDI,T.MARIYUR,KEELVAIPAR,ERVADI"))
+OUTPUT_BASE = Path(os.path.join(shoreline_data_dir, "PYTHON_OUTPUTS_V2"))
 AOI_FILE = BASE_PATH / "AOI.kml"
+
+OUTPUT_BASE.mkdir(exist_ok=True)
 
 def apply_cloud_mask(b3_path, b5_path, qa_path, output_b3_path, output_b5_path):
     with rasterio.open(qa_path) as qa_src:
